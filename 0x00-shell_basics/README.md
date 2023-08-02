@@ -37,5 +37,5 @@ mkdir -p welcome/to/school - creates the directories welcome/, welcome/to/ and w
 
 ls -xamp - lists all the files and directories of the current directory, separated by commas (,).
 
-!:mime Holberton - magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.`
-
+o string SCHOOL School data
+!:mime School                 - file school.mgc that can be used with the command file to detect School data files.
