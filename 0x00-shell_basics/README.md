@@ -35,5 +35,5 @@ mv [[:upper:]]* /tmp/u - moves all files beginning with an uppercase letter to t
 
 mkdir -p welcome/to/school - creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
-`
+ls -xamp - lists all the files and directories of the current directory, separated by commas (,).`
 
