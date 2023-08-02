@@ -29,4 +29,6 @@ file /tmp/iamafile -  prints the type of the file named iamafile
 
 ln -s /bin/ls __ls__ - symbolic link to /bin/ls, named __ls__
 
+cp -u *.htm .. -  copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+
 
