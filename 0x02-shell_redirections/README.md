@@ -44,3 +44,7 @@ tr "A" "Z" | tr "c" "e" - Replace all characters A and c from input to Z and e r
 
 
 rev -  script that reverse its input.
+
+cut -d ':' -f 1,6 /etc/passwd | sort -  script that displays all users and their home directories, sorted by users
+
+
