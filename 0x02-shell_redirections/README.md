@@ -38,10 +38,7 @@ grep -i "^[a-z]" /etc/ssh/sshd_config - Display all lines of the file /etc/ssh/s
 
 tr "A" "Z" | tr "c" "e" - Replace all characters A and c from input to Z and e respectively.
 
-
-
-
-
+tr"A""Z"|tr"c""e" - a script that removes all letters c and C from input.
 
 rev -  script that reverse its input.
 
