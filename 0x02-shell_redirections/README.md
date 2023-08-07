@@ -24,4 +24,6 @@ find . -type d -not -name '.' | wc -l -  counts the number of directories and su
 
 ls -t1 | head -n 10 -  displays the 10 newest files in the current directory.
 
+sort | uniq -u -  takes a list of words as input and prints only words that appear exactly once.
+
 
