@@ -10,4 +10,6 @@ printenv - a script that lists environment variables.
 
 set - a script that lists all local variables and environment variables, and functions.
 
+BEST="School" -  a script that creates a new local variable.
+
 
