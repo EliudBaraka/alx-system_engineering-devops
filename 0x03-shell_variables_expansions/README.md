@@ -6,4 +6,6 @@ export PATH=$PATH:/action - /action to the PATH. /action should be the last dire
 
 echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1)) - a script that counts the number of directories in the PATH.
 
+printenv - a script that lists environment variables.
+
 
