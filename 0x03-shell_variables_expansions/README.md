@@ -12,4 +12,6 @@ set - a script that lists all local variables and environment variables, and fun
 
 BEST="School" -  a script that creates a new local variable.
 
+export BEST=School - a script that creates a new global variable.
+
 
